@@ -1,6 +1,6 @@
-@base <http://users.dcc.uchile.cl/~pmunoz/foaf.ttl> .
+@base <https://pablo-munoz-soto.github.io./> .
 
-@prefix pm: <http://users.dcc.uchile.cl/~pmunoz/foaf.ttl#> .
+@prefix pm: <https://pablo-munoz-soto.github.io./foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -23,7 +23,7 @@
    foaf:givenName "Pablo" ;
    foaf:familyName "Munoz" ;
    foaf:age 24 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
-   foaf:homepage <http://users.dcc.uchile.cl/~pmunoz/> ;
+   foaf:homepage <https://pablo-munoz-soto.github.io./> ;
    foaf:img <https://i5.walmartimages.com/seo/Donkey-Kong-Puppet_d81a258e-42e8-448f-afd6-cb2fba8f4639_1.f665823682595b828881c42870712763.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF> ;
    foaf:knows <http://users.dcc.uchile.cl/~almorale/foaf.ttl#am> , <http://users.dcc.uchile.cl/~goperez/perfil.ttl#gp> , <https://fabianvillena.cl/foaf.ttl#fv> , <https://users.dcc.uchile.cl/~ahogan/foaf.ttl> ;
    foaf:interest dbr:Semantic_Web , dbr:Donkey_Kong , dbr:Video_game ; 
