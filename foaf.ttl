@@ -1,4 +1,4 @@
-@base <https://pablo-munoz-soto.github.io./> .
+@base <https://pablo-munoz-soto.github.io./foaf.ttl> .
 
 @prefix pm: <https://pablo-munoz-soto.github.io./foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
