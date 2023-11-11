@@ -1,0 +1,34 @@
+@base <http://users.dcc.uchile.cl/~pmunoz/foaf.ttl> .
+
+@prefix pm: <http://users.dcc.uchile.cl/~pmunoz/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2023-11-07"^^xsd:date ;
+   dc:title "Pablo's FOAF Profile"@en ;
+   foaf:primaryTopic <#pm> ;
+   dc:creator <#pm> .
+
+<#ah> a foaf:Person ;
+   rdfs:label "Pablo Munoz" ;
+   rdfs:comment "Student of the DCC"@en , "Estudiante del DCC"@es ;
+   foaf:name "Pablo Munoz" ;
+   foaf:givenName "Pablo" ;
+   foaf:familyName "Munoz" ;
+   foaf:age 24 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:homepage <http://users.dcc.uchile.cl/~pmunoz/> ;
+   foaf:img <https://i5.walmartimages.com/seo/Donkey-Kong-Puppet_d81a258e-42e8-448f-afd6-cb2fba8f4639_1.f665823682595b828881c42870712763.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF> ;
+   foaf:knows <http://users.dcc.uchile.cl/~almorale/foaf.ttl#am> , <http://users.dcc.uchile.cl/~goperez/perfil.ttl#gp> , <https://fabianvillena.cl/foaf.ttl#fv> , <https://users.dcc.uchile.cl/~ahogan/foaf.ttl> ;
+   foaf:interest dbr:Semantic_Web , dbr:Donkey_Kong , dbr:Video_game ; 
+   social:likesMovie dbr:Sharknado , dbr:Sharktopus , dbr:Dinoshark , dbr:Mega_Shark_Versus_Giant_Octopus ;
+   social:hasSpiritAnimal dbr:Penguin ;
+   social:hasFavouritePlatonicSolid dbr:Cube ;
+   foaf:nick "Donguikong" ;
+   foaf:myersBriggs "INFP" .
